@@ -3,7 +3,6 @@ import { useRouter } from 'expo-router';
 import {
   Image,
   SafeAreaView,
-  ScrollView,
   Text,
   TouchableOpacity,
   View,

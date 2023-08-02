@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "I-Firm",
-    "slug": "ifirm",
+    "name": "OlEdu",
+    "slug": "oledu",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -12,7 +12,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.anonymous.reactnativeboilerplate"
@@ -28,6 +30,17 @@
       "favicon": "./assets/favicon.png",
       "bundler": "metro"
     },
-    "plugins": ["@config-plugins/detox", "expo-router"]
+    "plugins": [
+      "@config-plugins/detox",
+      "expo-router"
+    ],
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "8caf85e8-094b-4f9c-82ed-bb45e1c24b03"
+      }
+    }
   }
 }

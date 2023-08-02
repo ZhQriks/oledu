@@ -157,7 +157,7 @@ const SignInWithOAuth = () => {
               value={password}
               placeholder="Password..."
               secureTextEntry
-              onChangeText={(password) => setPassword(password)}
+              onChangeText={(pass) => setPassword(pass)}
             />
           </View>
           <TouchableOpacity
