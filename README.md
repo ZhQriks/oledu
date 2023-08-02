@@ -1,14 +1,20 @@
-# Boilerplate and Starter for React Native, Expo, NativeWind and TypeScript [![Twitter](https://img.shields.io/twitter/url/https/twitter.com/cloudposse.svg?style=social&label=Follow%20%40Ixartz)](https://twitter.com/ixartz)
+## OlEDU - Learn competetive programming FAST
 
-<p align="center">
-  <a href="https://creativedesignsguru.com/"><img src="assets/banner.png?raw=true" alt="React Native Starter Template"></a>
-</p>
+### Screens
+* Main Page
+* Education Page
+* Profile Page
+* Course Details, Learning Page
+* ![Frame 141](https://github.com/ZhQriks/oledu/assets/49629027/970ac72b-5c76-4140-9082-b84196ce9117)
 
-🚀 Boilerplate and Starter for React Native, Expo, NativeWind and TypeScript ⚡️ Made with developer experience first: React Native, Expo, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Jest, Detox, VSCode, NativeWind.
+## Introduction
+Welcome to the Competitive Programming Learning Platform! This mobile application is designed to assist learners in their journey into competitive programming. Built with React Native, the app offers an intuitive user experience and brings the world of algorithms, data structures, and coding competitions right to your fingertips.
 
-### Features
-
-Developer experience first:
+## Features
+**Main Page**: Access all the core features, latest courses, and news from the home screen.
+**Profile Page**: Manage your user profile, track your progress, and customize your learning experience.
+**Educational Page**: Explore a variety of tutorials, lessons, and practice problems tailored for all skill levels.
+**Course Details Page**: Dive into comprehensive course materials, participate in interactive challenges, and gain insights from experienced instructors.
 
 - ⚡ [Expo](https://expo.dev) for mobile development
 - ⚛️ [React Native](https://reactnative.dev) for building native apps using React
@@ -26,75 +32,10 @@ Developer experience first:
 
 ### Nextless.js SaaS Boilerplate
 
-Build your SaaS product faster with [React SaaS Boilerplate](https://nextlessjs.com).
-
-[![React SaaS Boilerplate Next.js](https://creativedesignsguru.com/assets/images/themes/next-js-saas-starter-kit.jpg)](https://nextlessjs.com)
-
-### Requirements
-
-- Node.js 14+ and npm
-- [iOS Simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Android Studio Emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-
-### Getting started
-
-Run the following command on your local environment:
-
-```shell
-git clone --depth=1 https://github.com/ixartz/React-Native-Boilerplate.git my-project-name
-cd my-project-name
-npm install
 ```
-
-Then, you can run locally in development mode with live reload:
-
-```shell
+npm i
 npm run dev:ios
-# Or
-npm run dev:android
 ```
-
-This will open the app in the iOS simulator or Android emulator.
-
-### Testing
-
-Testing is an important part of the development process and often the neglected one. This starter code comes up with Jest and React Testing Library for unit testing and Detox for E2E testing.
-
-#### Unit Testing
-
-To run the unit tests, run the following command:
-
-```shell
-npm run test
-```
-
-#### E2E Testing
-
-To run the E2E tests, you first need to run the following command:
-
-```shell
-npm run e2e:prepare # Only need to run once
-```
-
-Then, you can run the following command to run the E2E tests:
-
-```shell
-npm run e2e:ios
-# Or
-npm run e2e:android
-```
-
-### VSCode information (optional)
-
-If you are VSCode users, you can have a better integration with VSCode by installing the suggested extension in `.vscode/extension.json`. The starter code comes up with Settings for a seamless integration with VSCode. The Debug configuration is also provided for frontend and backend debugging experience.
-
-With the plugins installed on your VSCode, ESLint and Prettier can automatically fix the code and show you the errors. Same goes for testing, you can install VSCode Jest extension to automatically run your tests and it also show the code coverage in context.
-
-Pro tips: if you need a project wide type checking with TypeScript, you can run a build with <kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>B</kbd> on Mac.
-
-### Contributions
-
-Everyone is welcome to contribute to this project. Feel free to open an issue if you have question or found a bug. Totally open to any suggestions and improvements.
 
 ### License
 
