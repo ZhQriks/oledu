@@ -1,16 +1,42 @@
 {
   "cli": {
-    "version": ">= 3.17.1"
+    "version": ">= 3.3.0"
   },
   "build": {
+    "base": {
+      "node": "18.16.1",
+      "ios": {
+        "resourceClass": "m-medium"
+      },
+      "android": {
+        "resourceClass": "medium"
+      }
+    },
     "development": {
+      "extends": "base",
       "developmentClient": true,
       "distribution": "internal"
     },
     "preview": {
-      "distribution": "internal"
+      "extends": "base",
+      "env": {
+        "EXPO_PUBLIC_PUSHER_APP_KEY": "nothing",
+        "EXPO_PUBLIC_PUSHER_SERVER_TLS": "nothing",
+        "EXPO_PUBLIC_PUSHER_CLUSTER": "nothing"
+      },
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      }
     },
-    "production": {}
+    "production": {
+      "extends": "base",
+      "env": {
+        "EXPO_PUBLIC_PUSHER_APP_KEY": "nothing",
+        "EXPO_PUBLIC_PUSHER_SERVER_TLS": "nothing",
+        "EXPO_PUBLIC_PUSHER_CLUSTER": "nothing"
+      }
+    }
   },
   "submit": {
     "production": {}

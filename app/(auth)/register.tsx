@@ -54,7 +54,7 @@ const RegisterWithClerk = () => {
   };
 
   return (
-    <SafeAreaView className="bg-neutral-950">
+    <SafeAreaView className="bg-neutral-950 flex-1">
       <Stack.Screen options={{ headerShown: false }} />
       <View className="h-full w-full p-6">
         <View className=" my-auto border border-neutral-200 bg-white p-6 rounded-2xl">

@@ -16,9 +16,14 @@ const Profile = () => {
   const router = useRouter();
 
   const fullName =
-    (user?.fullName || 'Sungat') + (user?.lastName || ' Mukhanov');
-  const email = user?.emailAddresses[0]?.emailAddress || 'sungat@gmail.com';
-  console.log(user);
+    user?.firstName || user?.lastName
+      ? (user?.firstName || '') + (user?.lastName || '')
+      : user?.emailAddresses[0]?.emailAddress || '';
+
+  const email =
+    user?.firstName || user?.lastName
+      ? user?.emailAddresses[0]?.emailAddress || 'sungat@gmail.com'
+      : '';
   return (
     <SafeAreaView style={styles.containerBlack}>
       <View className="h-20 flex-row justify-between border-b border-neutral-800 px-5 py-6">
